@@ -37,7 +37,7 @@ public class CartDaoCollectionImplTest {
     }
 
     public static void testRemoveCartItem() {
-        System.out.println("Remove Cart\n");
+        System.out.println("Remove Cart");
         cartDao.removeCartItem(1, 3);
 
     }
