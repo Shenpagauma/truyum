@@ -46,8 +46,8 @@ public class MenuItemDaoCollectionImpl implements MenuItemDao {
         for (MenuItem menuItem : menuItemList) {// checks whether dOL is before or equals and item
                                                 // is active
             if ((menuItem.getDateOfLaunch().before(new Date())
-                    || menuItem.getDateOfLaunch().equals(new Date())
-                            && menuItem.isActive() == true)) {
+                    || menuItem.getDateOfLaunch().equals(new Date()))
+                            && menuItem.isActive() == true) {
                 menuItems.add(menuItem);
             }
 

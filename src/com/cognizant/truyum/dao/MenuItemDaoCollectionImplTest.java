@@ -21,7 +21,6 @@ public class MenuItemDaoCollectionImplTest {
 
     public static void testGetMenuItemListAdmin() {
         System.out.println("Admin View");
-
         List<MenuItem> menu = menudao.getMenuItemListAdmin();
         System.out.printf("%-15s%-25s%-15s%-15s%-15s%-15s%s\n", "Id", "Name", "Price", "Active",
                 "Date Of Launch", "Category", "Free Delivery");

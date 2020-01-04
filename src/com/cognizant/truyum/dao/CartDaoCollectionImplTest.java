@@ -25,19 +25,19 @@ public class CartDaoCollectionImplTest {
         try {
 
             System.out.println("Retrieving all the items from cart");
-            List<MenuItem> list = cartDao.getAllCartItems(1).getMenuItemList();
+            List<MenuItem> list = cartDao.getAllCartItems(2).getMenuItemList();
             for (MenuItem menuItem : list) {
                 System.out.println(menuItem);
 
             }
-            System.out.printf("Total Price: %.2f\n", cartDao.getAllCartItems(1).getTotal());
+            System.out.printf("Total Price: %.2f\n", cartDao.getAllCartItems(2).getTotal());
         } catch (CartEmptyException e) {
             System.err.println(e);
         }
     }
 
     public static void testRemoveCartItem() {
-        System.out.println("Remove Cart");
+        System.out.println("Remove Cart\n");
         cartDao.removeCartItem(1, 3);
 
     }
