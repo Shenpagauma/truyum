@@ -7,7 +7,7 @@ import java.util.Date;
 public class DateUtil {
     public static Date convertToDate(String date) {
         try {
-            SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyy");
+            SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
             format.setLenient(false);
             return format.parse(date);// String to Date
         } catch (ParseException e) {
