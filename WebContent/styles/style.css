@@ -1,0 +1,162 @@
+header {
+    top: 0%;
+    background-color: #20488c;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    font-family: Calibri;
+}
+
+footer {
+    bottom: 0%;
+    background-color: #979ba1;
+    min-width: 100%;
+    position: fixed;
+    left: 0px;
+    padding-left: 20px;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    font-family: Calibri Light;
+}
+
+/* truyum title */
+span {
+    color: #c4c8cf;
+    top: 13px;
+    margin-left: 20px;
+    font-size: 23px;
+    position: fixed;
+}
+
+/*truyum logo  */
+#logo {
+    top: 10px;
+    margin-left: 105px;
+    width: 50px;
+    height: 50px;
+}
+
+/* navigation bar */
+nav a {
+    font-size: 18px;
+    margin-left: 90%;
+    top: 15px;
+    position: fixed;
+    color: #c4c8cf;
+}
+
+/* cart in navigation bar */
+#cart {
+    margin-left: 95%;
+}
+
+/*All page heading */
+#heading {
+    margin-top: 6%;
+    margin-left: 5px;
+    color: black;
+    font-family: Calibri;
+    font-size: 30px;
+    position: fixed;
+}
+
+section {
+    margin-left: 10%;
+    margin-top: 10%;
+    position: fixed;
+}
+
+/* name label in table*/
+.name-label {
+    text-align: left;
+}
+
+/* td,th right align*/
+.right-label {
+    text-align: right;
+}
+
+/* td,th left align */
+.left-label {
+    text-align: left;
+}
+
+/* td,th */
+.center-text {
+    text-align: center;
+}
+
+th, td {
+    font-family: Calibri;
+}
+
+th {
+    font-weight: bold;
+}
+
+/* link inside section  */
+section a {
+    color: #000000;
+}
+
+/*form submit button*/
+.submit {
+    background-color: #20488c;
+    border: none;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+.checkbox-size {
+    width: 20px;
+    height: 20px;
+}
+
+/*notification messages*/
+#notification-message {
+    color: #32c937;
+    font-family: Calibri;
+    position: fixed;
+    margin-left: 8%;
+    top: 19%;
+    font-size: 20px;
+}
+
+/*  link message in cart empty file*/
+#link-blue {
+    color: #00a2cf;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+/* notification in cart empty file  */
+#cart-font-notification {
+    color: #979999;
+    font-family: Calibri;
+    font-weight: bold;
+    margin-left: 9px;
+}
+
+/*notificaton in edit status file */
+#menu-items-successfully {
+    color: #32c937;
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* grey colour label in form */
+.grey {
+    color: #888a8c;
+    font-weight: bold;
+}
+
+/*checkbox label align  */
+#free-delivery-align {
+    position: fixed;
+    top: 38.8%;
+}
