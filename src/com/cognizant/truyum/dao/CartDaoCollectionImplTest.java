@@ -9,9 +9,9 @@ public class CartDaoCollectionImplTest {
 
     public static void main(String[] args) {
         testAddCartItem();
-        testgetAllCartItems();
+        testGetAllCartItems();
         testRemoveCartItem();
-        testgetAllCartItems();
+        testGetAllCartItems();
     }
 
     public static void testAddCartItem() {
@@ -21,7 +21,7 @@ public class CartDaoCollectionImplTest {
 
     }
 
-    public static void testgetAllCartItems() {
+    public static void testGetAllCartItems() {
         try {
 
             System.out.println("Retrieving all the items from cart");
@@ -32,7 +32,7 @@ public class CartDaoCollectionImplTest {
             }
             System.out.printf("Total Price: %.2f\n", cartDao.getAllCartItems(2).getTotal());
         } catch (CartEmptyException e) {
-            System.err.println(e);
+            System.out.println(e);
         }
     }
 
