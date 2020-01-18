@@ -37,8 +37,6 @@
                         value="${menuItem.getPrice()}"></f:formatNumber></td>
                 <td class="center-text"><a href="RemoveCart?menuItemId=${menuItem.getId()}">Delete</a></td>
             </tr>
-
-
         </c:forEach>
         <tr>
             <td></td>

@@ -33,7 +33,7 @@
         <c:forEach items="${menuItem}" var="menuItem">
             <tr>
                 <td class="name-label">${menuItem.getName()}</td>
-                 <f:setLocale value="en_IN" />
+                <f:setLocale value="en_IN" />
                 <td class="right-label"><f:formatNumber type="currency" maxFractionDigits="2"
                         value="${menuItem.getPrice()}"></f:formatNumber></td>
                 <td class="center-text"><c:choose>
