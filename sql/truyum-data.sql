@@ -1,5 +1,7 @@
 -- 1.			View Menu Item List Admin(TYUC001)
 -- a.Inserting menu items
+
+
 insert into truyum.menu_item(me_name,me_price,me_active,me_date_of_launch,me_category,me_free_delivery) values('Sandwich',99.00,'Yes','2017-03-15','Main Course','Yes');
 
 insert into truyum.menu_item(me_name,me_price,me_active,me_date_of_launch,me_category,me_free_delivery) values('Burger',129.00,'Yes','2017-12-23','Main Course','No');
